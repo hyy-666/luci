@@ -5,9 +5,9 @@
 </div>
 <script type="text/javascript">
         document.getElementById("terminal").src = window.location.protocol + "//" + window.location.hostname + ":7681";
-        document.getElementById("terminal").height = document.documentElement.clientHeight;
+        document.getElementById("terminal").height = document.documentElement.clientHeight * 0.75;
         window.onresize = function(){
-            document.getElementById("terminal").height = document.documentElement.clientHeight;
+            document.getElementById("terminal").height = document.documentElement.clientHeight * 0.75;
         }
 </script>
 <%+footer%>
